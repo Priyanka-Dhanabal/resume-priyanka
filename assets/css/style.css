@@ -161,7 +161,7 @@ footer{
 }
 
 .social-links li a i:hover{
-    background-color: rgb(252, 94, 37);;
+    background-color: rgb(252, 94, 37);
 }
 
 #footer-details{
@@ -313,4 +313,39 @@ footer{
 
 .progress-section{
     margin: 40px 20px;
+}
+
+/*Contact page*/
+
+.bg-color-contact{
+    background-color: #fff;
+}
+
+.contact-heading{
+    font-weight:400 ;
+    font-family: "Exo", sans-serif;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form{
+    margin: 0 auto;
+    padding-top: 10px;
+    max-width: 70%;
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color:#c9650f;
+}
+
+@media (min-width:992px) {
+    .center-form{
+        margin: 0 auto;
+        padding-top: 30px;
+        max-width: 50%;
+        min-height: 240px;
+    }
 }
