@@ -210,43 +210,6 @@
         </div>
 
     </footer>
-    <script>
-        function initMap() {
-            var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 3,
-                center: {
-                    lat: 46.617261,
-                    lng: -33.134766
-                }
-            });
-
-            var labels = "ABCDEFGHIJKLMNOPQRSTUVXZY";
-            var locations = [{
-                    lat: 40.785031,
-                    lng: -73.968285
-                },
-                {
-                    lat: 41.084045,
-                    lng: -73.874245
-                },
-                {
-                    lat: 40.754932,
-                    lng: -73.984016
-                },
-            ];
-
-            var markers = locations.map(function(location, i){
-                return new google.maps.Marker({
-                    position: location,
-                    label: labels[i % labels.length]
-                });
-            });
-
-                        var markerCluster = new MarkerClusterer(markers, map, {
-                            imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
-                        });
-                    }
-    </script>
     <script
         src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
     </script>
@@ -254,6 +217,7 @@
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDm_2GjykiNyJouDNNieXcZ5Ow6y4D07FA&loading=async&callback=initMap">
     </script>
     <script src="https://kit.fontawesome.com/0f5fd35744.js" crossorigin="anonymous"></script>
+    <script src="assets/js/maps.js"></script>
 </body>
 
 </html>
