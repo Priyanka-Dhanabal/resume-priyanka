@@ -51,6 +51,14 @@ header{
     background-color: #7e092c;
 }
 
+.ui-menu-color-github{
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests{
+    background-color: #e74c3c;
+}
+
 .list-inline-item:not(:last-child){
     margin:0;
 }
@@ -348,4 +356,17 @@ button[type="submit"]{
         max-width: 50%;
         min-height: 240px;
     }
+}
+
+.bg-color-conferences{
+    background-color: #f4f4f4;
+}
+
+.bg-color-groups{
+    background-color: #ffffff;
+}
+
+
+div#map {
+    min-height: 360px;
 }
